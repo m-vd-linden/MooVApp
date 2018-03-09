@@ -13,8 +13,7 @@ namespace MooV
 		{
 			InitializeComponent();
 
-            //MainPage = new MooV.MainPage();
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new MooV.MainPage();
 		}
 
 		protected override void OnStart ()

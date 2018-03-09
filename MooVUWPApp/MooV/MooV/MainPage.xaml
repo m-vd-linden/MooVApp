@@ -11,7 +11,17 @@
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
-    <AbsoluteLayout>
+    <!--<AbsoluteLayout>
         <SearchBar x:Name="searchBar_Main" AbsoluteLayout.LayoutBounds="580, 100, 200, 32" Text="Search"/>
-    </AbsoluteLayout>
+    </AbsoluteLayout>-->
+
+    <!--<StackLayout Spacing="100">
+        <SearchBar x:Name="searchBar_Main" Text="Search"/>
+    </StackLayout>-->
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+        </Grid.ColumnDefinitions>
+    </Grid>
+    
 </ContentPage>
