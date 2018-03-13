@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moov.UWP", "Moov\Moov.UWP\Moov.UWP.csproj", "{749285F9-4EE1-402E-9783-3D3D45A2F1F2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Moov", "Moov\Moov\Moov.shproj", "{96619C39-A20A-47A0-A3AE-5B3983C30498}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Moov\Moov\Moov.projitems*{749285f9-4ee1-402e-9783-3d3d45a2f1f2}*SharedItemsImports = 4
+		Moov\Moov\Moov.projitems*{96619c39-a20a-47a0-a3ae-5b3983c30498}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Debug|ARM.Build.0 = Debug|ARM
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Debug|ARM.Deploy.0 = Debug|ARM
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Debug|x64.ActiveCfg = Debug|x64
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Debug|x64.Build.0 = Debug|x64
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Debug|x64.Deploy.0 = Debug|x64
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Debug|x86.ActiveCfg = Debug|x86
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Debug|x86.Build.0 = Debug|x86
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Debug|x86.Deploy.0 = Debug|x86
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Release|ARM.ActiveCfg = Release|ARM
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Release|ARM.Build.0 = Release|ARM
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Release|ARM.Deploy.0 = Release|ARM
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Release|x64.ActiveCfg = Release|x64
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Release|x64.Build.0 = Release|x64
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Release|x64.Deploy.0 = Release|x64
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Release|x86.ActiveCfg = Release|x86
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Release|x86.Build.0 = Release|x86
+		{749285F9-4EE1-402E-9783-3D3D45A2F1F2}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAE717CD-86AC-45E4-8A5F-1FCE6320826A}
+	EndGlobalSection
+EndGlobal
