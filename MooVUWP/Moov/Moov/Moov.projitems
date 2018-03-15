@@ -16,8 +16,21 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Database\Actor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\Director.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\Genre.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\Movie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\Serie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\tbl_Director_Movie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\tbl_Director_Serie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\tbl_User_Genre.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Database\User.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Aapjee.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Background.jpg" />
   </ItemGroup>
 </Project>
