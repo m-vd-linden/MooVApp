@@ -15,5 +15,5 @@ namespace Moov
 			InitializeComponent();
             SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
         }
-    }
+    }   
 }

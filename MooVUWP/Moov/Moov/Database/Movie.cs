@@ -12,7 +12,7 @@ namespace Moov.Database
         public int movie_ID { get; set; }
 
         public string movie_TItle { get; set; }
-
+            
         public int movie_Duration { get; set; }
 
         public string movie_Description { get; set; }
